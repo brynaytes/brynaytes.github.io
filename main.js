@@ -1,3 +1,11 @@
 function main(){
-  window.alert("Congratulations youve just clicked a useless button. You just spent 0.5 seconds doing something pointless, and youll never get that time back.");
+}
+function placer(x){
+	if(x == "about"){
+		window.alert("about");
+	}else if(x == "goals"){
+		window.alert("goals");
+	}else if(x=="projects"){
+		window.alert("projects");
+	}
 }
