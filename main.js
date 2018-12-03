@@ -1,11 +1,14 @@
+var last="goals";
 function main(){
 }
+
 function placer(x){
-	if(x == "about"){
-		window.alert("about");
-	}else if(x == "goals"){
-		window.alert("goals");
-	}else if(x=="projects"){
-		window.alert("projects");
-	}
+
+	document.getElementById(last).style.display="none";
+	var txt = document.getElementById(x);
+	txt.style.display="block";
+	last = x;
+}
+function enterText(){
+	
 }
