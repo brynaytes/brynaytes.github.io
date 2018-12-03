@@ -1,17 +1,28 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-  <script src="main.js"></script>
-  <style>a{ background-color:darkCyan; font-color:white; border:1px solid black; border-radius:5px; padding:10px; font-size:20px;}
-  a:hover{cursor:pointer; background-color:white; font-color:darkCyan;}
-  </style>
-  </head>
+  
+	<script src="main.js"></script>
+  <style>a{background-color:darkCyan; color:white; border:1px solid black; border-radius:5px; padding:10px; font-size:20px;}
+  a:hover{cursor:pointer; background-color:white;color:darkCyan; }
+  .texts{display:none;}
+</style>
+  
+</head>
+
 <body>
+
 <br>
   <a onclick="placer('about')">About Me</a>
-  <br>
-  <a onclick="placer('goals')">Goals</a>
-  <br>
+ <a onclick="placer('goals')">Goals</a>
+ 
   <a onclick="placer('projects')">Projects</a>
+
+	<div class="texts" id="about"><h1>This is everything about me. ;)</h1></div>
+	<div class="texts" id="goals"><h1>I want cheese and world domination.</h1></div>
+	<div class="texts" id="projects"><h1>Yea ive made some stuff</h1></div>
 </body>
+
 </html>
