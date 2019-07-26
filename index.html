@@ -1,85 +1,21 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-  
-	<script src="main.js"></script>
-<style>
-	header{
-		text-align: center;
-	}
-	header h1{
-		font-size:70px;
-		line-height: 0px;
-	}
-	header h2{
-		line-height: 0px;
-		font-size:60px;
-	}
-	body {
-	background-image:linear-gradient(#000000,darkslategray);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	color:white;
-	}
-	a{background-color:darkCyan; color:white; border:1px solid black; border-radius:5px; padding:10px; font-size:20px;}
-  a:hover{cursor:pointer; background-color:white;color:darkCyan; }
-  .texts{display:none;
-	margin-left:20px;
-	margin-right:40px;
-	  padding-right: 20px;
-	}
-	#about{
-	grid-template-rows:auto auto;
-	grid-template-columns: auto auto;
-	}
-	.cont{
-		margin:40px;
-	}
-	html{
-		height:100%;
-	}
-</style>
-  
+    <link href="main.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Bryn Aytes</title>
 </head>
-<header>
-	<h1>BRYN</h1>
-	<h2>AYTES</h2>
-	<br>
- 	<a onclick="placer('about')">About Me</a>
- 	<a onclick="placer('goals')">Goals</a>
- 	<a onclick="placer('projects')">Projects</a>
-</header>
-<body>
-<br>
-	<div class="texts" id="about">
-		<div class="cont">
-		<h1>About Me:</h1>
-		<p>I am an 18 year old student of computer science living in Kansas. Currently i’m taking classes at Johnson County Community college, and will begin attending Washburn University in the Fall.</p>
-		<p>While I am not currently taking any classes concerning computer science, over the past few months Ive made it my hobby. Under the projects tab you'll find just a few projects I have put together in the past weeks.</p>
-		</div>
-		<div class="cont">
-		<h1>Why Coding?:</h1>
-		<p>My first experience with programing came as a class in high school class that taught the bare basics of JavaScript. While this class in the end had little impact over my actual programing abilities, it showed me a side of technology, and even a side of myself that I had never seen before.Never before had I found a class that focused on applying logic and reasoning to solve problems. I love being able to sit down, think about a problem critically, and see my solution resolve an issue. </p>
-		</div>
-		<div class="cont">
-		<h1>My Interests:</h1>
-		<p>Unfortunately balancing work and school has left me with little time to pursue my interests. In highschool I made it my goal to become as well rounded as possible. This meant finding many different activities and clubs to join. I found great joy in doing forensics and theater at my school. I did Science Olympiad for a full four years, which greatly sharpened my problem solving skills. In Junior year of highschool I joined the cross country team, to which I attribute my strong work ethic.</p>
-		</div>
-	</div>
-	<div class="texts" id="goals">
-		<h1>My Goals:</h1>
-		<p>Currently I am searching for an internship for the summer of 2019. From this I hope to gain experience in software engineering, and problem solving.</p>
-	</div>
-	<div class="texts" id="projects">
-		<h1>projects:</h1>
-		<a href="https://github.com/brynaytes">My Git Hub</a>
-		<a href="https://brynaytes.github.io/MineSweeper/">MineSweeper</a>
-		<a href="https://brynaytes.github.io/ToDoList/">To Do List</a>
-	</div>
-</body>
+<body onload="main()">
+    <div id="name">    <h1>BRYN</h1>   <h1>AYTES</h1></div>
+ 
+    
+    <div id="about" onclick="clicked('about', 0)"><p class="name">About Me</p><div class="hidden"><p>I am an 19 year old student of computer science living in Kansas. </p><p>Currently i’m taking classes at \ Washburn University.</p><p>I enjoy running, reading, and coding.</p></div></div>
 
+    <div id="projects" onclick="clicked('projects', 1)"><p class="name">Projects</p><div class="hidden"><a class="button" target="_blank" href="https://brynaytes.github.io/MineSweeper/">Mine Sweeper</a><br><br><a href="https://brynaytes.github.io/ToDoList/" class="button" target="_blank">To Do List</a><br><br><a href="https://brynaytes.github.io/Quizer/" class="button" target="_blank">tests</a></div></div>
+    
+    <div id="contact" onclick="clicked('contact', 2)"><p class="name">Find Me</p><div class="hidden" style="top:10%;"><p>email: brynaytes@gmail.com</p>
+    <a href="https://www.instagram.com/brynaytes/"><img src="icons/instagram.png" style="width:30px;height:30px;" target="_blank"></a>
+    <a href="https://www.facebook.com/bryn.aytes"><img src="icons/facebook-logo.png" style="width:30px;height:30px;" target="_blank"></a>
+    </div></div>
+</body>
 </html>
