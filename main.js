@@ -34,7 +34,7 @@ function setter(){
     holder.push(box1);
     
     box = document.getElementById("projects");
-    box1 = new ball(box, 300, 100, "+", "-", 125,2,"#9E3354","red","30%");
+    box1 = new ball(box, 300, 100, "+", "-", 100,2,"#9E3354","red","30%");
     holder.push(box1);
     
     box = document.getElementById("contact");
