@@ -65,17 +65,17 @@ function frame() {
     
     
     if(box1.bx == "+"){
-        box1.x++;
+        box1.x+=0.5;
     }else if(box1.bx == "-"){
-        box1.x--;
+        box1.x-=0.5;
     }else{
         window.alert("not sure what just happened");
     }
     
     if(box1.by == "+"){
-    box1.y++;
+    box1.y+=0.5;
        }else if(box1.by == "-"){
-        box1.y--;
+        box1.y-=0.5;
     }else{
         
     }
