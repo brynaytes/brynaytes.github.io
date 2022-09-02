@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #F1E9E7;
+    font-family: helvetica;
+}
+
+.header {
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.header_pages {
+    display: inline;
+    padding: 10px;
+    float: right;
+    font-weight: 200;
+    color: black;
+}
+
+.header_name, #header_name {
+    float: left;
+    display: inline;
+    padding: 10px;
+    color: black;
+}
+
+.selected {
+    font-weight: 1000;
+}
+
+
+.projectsBody {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    margin: 10px;
+}
+
+.mandelImg {
+    width: 200px;
+}
+
+.project {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.projectDescription {
+    width: 400px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+#snakeVideo {
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 315px;
+    width: 560px;
+}
+
+.resumeBody {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-gap: 40px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.footer {
+    margin-left: 100px;
+}
+
+.email {
+    margin-left: 20px;
+}
+
+.info {
+    width: 300px;
+    padding: 20px;
+}
+
+.main_content {
+    padding-left: 50%;
+    align-content: center;
+}
+
+.center-stuff {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 100px;
+    grid-gap: 60px;
+    margin-bottom: 100px;
+}
+
+.pic {
+    height: 400px;
+    align-items: center;
+}
+
+.round {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.sectionTitle {
+    align-items: center;
+    margin: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer {
+}
