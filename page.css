@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 body {
     background-color: #F1E9E7;
@@ -27,18 +27,10 @@ body {
 }
 
 .selected {
-    font-weight: 1000;
 }
 
 
-.projectsBody {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 40px;
-    margin: 10px;
-}
+
 
 .mandelImg {
     width: 200px;
@@ -80,6 +72,7 @@ body {
 
 .footer {
     margin-left: 100px;
+	margin-bottom: 50px;
 }
 
 .email {
@@ -96,15 +89,6 @@ body {
     align-content: center;
 }
 
-.center-stuff {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 100px;
-    grid-gap: 60px;
-    margin-bottom: 100px;
-}
 
 .pic {
     height: 400px;
@@ -130,4 +114,43 @@ html {
 }
 
 .footer {
+}
+
+@media (min-width: 1000px){
+.projectsBody {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    margin: 10px;
+}
+.center-stuff {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 100px;
+    grid-gap: 60px;
+    margin-bottom: 100px;
+}
+}
+@media (max-width: 1000px){
+	.projectsBody {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  auto;
+    grid-gap: 40px;
+    margin: 10px;
+}
+.center-stuff {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  auto;
+    padding: 100px;
+    grid-gap: 60px;
+    margin-bottom: 100px;
+}
 }
