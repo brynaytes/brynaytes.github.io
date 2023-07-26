@@ -143,14 +143,22 @@ html {
     grid-template-columns:  auto;
     grid-gap: 40px;
     margin: 10px;
+    }
+    .center-stuff {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns:  auto;
+        padding: 100px;
+        grid-gap: 60px;
+        margin-bottom: 100px;
+    }
 }
-.center-stuff {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns:  auto;
-    padding: 100px;
-    grid-gap: 60px;
-    margin-bottom: 100px;
+
+.job_duty_list_item{
+    margin-bottom:  10px;
 }
+
+.company_year{
+    margin: 0
 }
