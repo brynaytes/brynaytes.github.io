@@ -38,9 +38,27 @@
     <div class="projectsBody">
 
         <div class="projectDescription">
+            <h2>recipes-for-dinner.com</h2>
+
+            <p>What are you going to eat for dinner? I dunno, but you can surely find something on my homemade recipes website. </p>
+            <p>recipes-for-dinner.com boasts a relatively modest visitors number (which is good, google never let me in the adsense program), but that doesnt mean the recipes arent great! </p>
+            <p>Honestly this is more of a technical demo, letting me work out some pre-built boilerplate code for standing up a new website.</p>
+            <p>The idea here is I have a lot of unknowns like ci/cd, aws infrastructure, and angular housekeeping ready to go when the time comes to build something else.</p>
+
+        </div>
+
+        <div style="margin-left : 100px">
+            <a href="https://recipes-for-dinner.com/" target="_blank">recipes-for-dinner.com</a>
+            <br>
+            <br>
+            <a href="https://github.com/brynaytes/unnamed-cooking-webiste" target="_blank">GitHub</a>
+            <br>
+        </div>
+
+        <div class="projectDescription">
             <h2>the-missing-sdk-for-aws-api-gateway</h2>
 
-            <p>This is an npm package I developed based on my time at Yellow Freight. There I had to build a lot of extra functionality for the AWS apigateway service. Here, I freshened up that code, added a bit more functionality, and put it into the world. </p>
+            <p>This is an npm package I developed based on my time at Yellow Freight. There I had to build a lot of extra functionality for the AWS ApiGateway service. Here, I freshened up that code, added a bit more functionality, and put it into the world. </p>
             <p>Yes, I realize the name is very long.</p>
 
         </div>
@@ -53,40 +71,6 @@
             <br>
         </div>
 
-        <div class="projectDescription">
-            <h2>React MineSweeper</h2>
-
-            <p>A very basic game of mine sweeper made in react.js</p>
-        </div>
-
-        <div style="margin-left : 100px">
-            <a href="https://d1h86xbqjrcel2.cloudfront.net/" target="_blank">The game</a>
-            <br>
-            <br>
-            <a href="https://github.com/brynaytes/mine-sweeper-v2" target="_blank">The game's code</a>
-        </div>
-        
-        <div class="projectDescription">
-            <h2>Terraform Website Hosting Example</h2>
-
-            <p>Deploying a react site to AWS via Terraform and ran through a ci/cd pipeline on GitHub actions. The site uses cloudFront as CDN and an s3 bucket for storage.  </p>
-        </div>
-
-        <div style="margin-left : 100px">
-            <a href="https://github.com/brynaytes/AWS-Basic-Web-Hosting-Terraform" target="_blank">The Terraform and CI/CD</a>
-            <br>
-        </div>
-
-        <div class="projectDescription">
-            <h2>CloudFromation Website Hosting Example</h2>
-
-            <p>Deploying a react site to AWS via CloudFromation template and ran through a ci/cd pipeline on GitHub actions. The site uses cloudFront as CDN and an s3 bucket for storage.  </p>
-        </div>
-
-        <div style="margin-left : 100px">
-            <a href="https://github.com/brynaytes/AWS-Basic-Web-Hosting" target="_blank">The cloudfromation and CI/CD</a>
-            <br>
-        </div>
 
         <div class="projectDescription">
             <h2>The Snake Pad</h2>
@@ -95,9 +79,6 @@
         </div>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/F_XL7-BEGk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="snakeVideo"></iframe>
-
-
-
 
         <div class="projectDescription">
 
@@ -113,17 +94,7 @@
 
         </div>
 
-        <div class="projectDescription">
-            <h1>Steganography</h1>
-            <a href="https://brynaytes.github.io/SteganographyV1/" target="_blank">See more</a>
-            <p>Steganography is a method of encoding data into an image. This program is meant to hide text input inside an uploaded image. It accomplishes this by altering RGB values of the chosen image. </p>
-        </div>
-        <div class="project"></div>
-        <div class="projectDescription">
-            <h1>Android Permission Reader</h1>
-            <a href="https://brynaytes.github.io/SteganographyV1/" target="_blank">See more</a>
-            <p>This is an android app I built for a digital forensics class. It essentially opens up other app's files and finds what device functions they request to use, have access to, and which ones they need to function. The app is a bit old and might not work on all phones, but it does some interesting things to read other applications. </p>
-        </div>
+
         <div class="project"></div>
 
     </div>
@@ -132,6 +103,18 @@
     <h2 class="sectionTitle" id="resumeTitle">Resume</h2>
 
     <div class="resumeBody">
+        <div class="job">
+            <h3>Application Developer 2</h3>
+            <h4 class = "company_year">Wachter</h4>
+            <h5 class = "company_year">2024 - present</h5>
+            <ul class="job_duty_list_item">
+                <li class="job_duty_list_item">At Wachter I do full stack work on their custom built ERP system. Frontends are built in ASP.NET, Angular, JQuery, and Knockout.js. With backend mostly being in C#.</li>
+                <li class="job_duty_list_item">I build powerful integrations between Dayforce, ServiceNow, Microsoft Dynamics, and custom built solutions.</li>
+                <li class="job_duty_list_item">I Provide tier 2 and 3 support for production issues. These duties can range from low stakes data fixes, all the way to resolving full service outages.</li>
+            </ul>
+        </div>
+
+        
         <div class="job">
             <h3>Full Stack Developer</h3>
             <h4 class = "company_year">FacilityAlly</h4>
@@ -143,20 +126,11 @@
         <div class="job">
             <h3>Application Developer</h3>
             <h4 class = "company_year">Yellow Corporation</h4>
-            <h5 class = "company_year">2022 - Present</h5>
+            <h5 class = "company_year">2021 - 2023</h5>
             <ul class="job_duty_list_item">
                 <li class="job_duty_list_item">Primarily worked as a full stack engineer building and maintaining a react website hosted in AWS. This work was based off an open source project and altering it to fit Yellow’s use case. This mostly consisted of developing and maintaining AWS resources through cloudformation, adding backend functionality, and some React development. As well as project and feature planning.</li>
                 <li class="job_duty_list_item">I also worked in a support role for our public facing APIs. I updated swagger documentation and ensured it matched Yellow’s contract standards, developed terraform code to build AWS resources, built monitoring tools to detect anomalies, developed tools for customer service teams to manage api keys, and worked closely with third party developers on their integrations. </li>
-                <li class="job_duty_list_item">I also worked modernizing existing services and building new JAVA APIs.This involved creating JSON wrappers for XML APIs and simplifying SQL.</li>
-            </ul>
-        </div>
-        <div class="job">
-            <h3>IT Intern</h3>
-            <h4 class = "company_year">Yellow Corporation</h4>
-            <h5 class = "company_year">2021 - 2022</h5>
-
-            <ul class="job_duty_list">
-                <li class="job_duty_list_item">Built PowerBI dashboards, did some Java  API development, and built POCs to test the viability of new technical projects at yellow.</li>
+                <li class="job_duty_list_item">I also worked modernizing existing services and building new Java APIs.This involved creating JSON wrappers for XML APIs and simplifying SQL.</li>
             </ul>
         </div>
         <div class="job">
